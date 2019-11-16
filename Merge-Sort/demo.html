@@ -13,7 +13,7 @@
   let arr = [2, 1]
   console.log(sort(arr))  //[1,2]
   //merge实现1
-  const merge = (a, b) => {
+  const merge1 = (a, b) => {
 	let c = [], i = 0, j = 0
 	while (i < a.length || j < b.length) {
 	  if (j >= b.length) {
@@ -32,7 +32,16 @@
 	}
 	return c
   }
-  console.log(merge([3, 5],[1, 2]))
+  console.log(merge1([3, 5], [1, 2]))
+  //merge实现2
+  const merge2 = (a, b) => {
+	return a.length === 0 ? b :
+           b.length === 0 ? a :
+		   a[0] > b[0] ?
+             [b[0]].concat(merge2(a, b.slice(1))) :
+		     [a[0]].concat(merge2(a.slice(1), b))
+  }
+  console.log(merge2([2, 3, 5, 6], [1, 2, 4]))
 </script>
 </body>
 </html>
