@@ -85,3 +85,10 @@ countSort([1,2,1])
 > 元素个数比较少，值跨度大时
 >
 > 比如[1, 99999, 5555] 排序时就很慢
+
+# 3 冒泡排序
+- 思路(辅助技巧)
+``每次通过相邻元素两两对比来获取最大/小值``
+``先画图找规律，再写代码``
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-4468a8934759f31b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
