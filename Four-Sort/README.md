@@ -136,3 +136,28 @@ bubbleSort([1,2,1])
 
 - 细节
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-4fabcaf6586e9b6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 代码
+```
+const insertSort = arr => {
+	if(arr.length<=1)return arr
+	for(let s=1; s<arr.length; s++){
+		const n = arr[s] // 记住n
+		let i // i要在for循环之后使用
+		for(i=s-1; i>=0; i--){
+			//比 n 大的数字往后挪了一位
+			if(arr[i]>n) arr[i+1] = arr[i]
+			// 遇到比 n 小的就中断循环
+			else if(arr[i]<=n) break
+		}
+		arr[i+1] = n
+	}
+	return arr
+}
+
+insertSort([3,2,1])
+// [1, 2, 3]
+insertSort([1,2,1])
+// [1, 1, 2]
+
+```
