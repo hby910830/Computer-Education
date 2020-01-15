@@ -131,5 +131,8 @@ bubbleSort([1,2,1])
 >
 > 虽然叫做插入排序，但是最好不要用 splice 方法，因为 splice 会导致整体移动
 
-起牌、插牌
+- 起牌、插牌
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-e700ad97c3a888a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 细节
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-4fabcaf6586e9b6a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
