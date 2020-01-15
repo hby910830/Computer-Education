@@ -46,3 +46,18 @@
 > 每个节点必有 2 个子节点，子节点可以是空节点
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-9d6476d4f29f2cf4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 二叉树 V.S. 树
+- 区别
+> 二叉树可以为空，树不能
+> 
+> 二叉树每个节点的度不大于 2，树则没有限制
+>
+> 二叉树是有序的，树则分为有序和无序两种
+
+-  二叉树 V.S. 度最大为 2 的有序树
+> 在有序树中，下面两棵树是一样的
+>
+> 但在二叉树中，下面两棵二叉树是不一样的，因为对于二叉树来说，空节点也是节点
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-3a493f88edf0fcbb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
