@@ -63,3 +63,29 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-3a493f88edf0fcbb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ``结论：二叉树、树是两种数据结构，只不过都是树形的而已``
+
+# 如何表示树结构
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-42a30efb083161a7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-ee58a89bf0f76713.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-59b07fd9e4cbc4d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 用代码表示二叉树
+```
+const node1 = { 
+  value: 12, left: node2, right: node3 
+}
+const binaryTree1 = {
+  value: 'A',
+  left: {
+    value: 'B',
+    left: {value: 'C', left:null, right:null}, 
+    right: null
+  },
+  right: {
+    value: 'D',
+    left: {value: 'E', left:null, right:null}, 
+    right: {value: 'F', left:null, right:null},
+  }
+ }
+// 可以看出一个节点和一棵二叉树的结构是一样的
+```
