@@ -124,3 +124,12 @@ bubbleSort([1,2,1])
 > 时间复杂度 n + (n - 1) + (n - 2) + ... + 1 约等于 n ^2
 >
 > 是一个低效的算法，不过面试可能会问到
+
+# 4 插入排序
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-f978dfd11571036f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+> 每次起牌，将新牌插入到第一个比它小的牌的后面
+>
+> 虽然叫做插入排序，但是最好不要用 splice 方法，因为 splice 会导致整体移动
+
+起牌、插牌
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-e700ad97c3a888a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
