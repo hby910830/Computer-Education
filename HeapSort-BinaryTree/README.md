@@ -61,3 +61,5 @@
 > 但在二叉树中，下面两棵二叉树是不一样的，因为对于二叉树来说，空节点也是节点
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-3a493f88edf0fcbb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+``结论：二叉树、树是两种数据结构，只不过都是树形的而已``
