@@ -36,3 +36,13 @@
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-7dea8908ade88eb6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
+# 二叉树 - 另一种树形结构
+- 形式化定义二叉树
+> 二叉树是 m>=0 个节点的集合 T
+>
+> T 要么为空，要么满足 T 由一个根节点和两个二叉树组成
+
+- 分析
+> 每个节点必有 2 个子节点，子节点可以是空节点
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-9d6476d4f29f2cf4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
