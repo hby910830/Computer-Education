@@ -89,3 +89,17 @@ const binaryTree1 = {
  }
 // 可以看出一个节点和一棵二叉树的结构是一样的
 ```
+
+# 树能表示什么
+- 公司结构
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-397ed50f1e9a4386.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 公式
+> a - b * (c/d + e/f)
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-9ad7a68d1ad1d694.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 代码
+> AST(抽象语法树)
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-8304f55478417937.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
