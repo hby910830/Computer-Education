@@ -190,6 +190,10 @@ console.log(array2tree(array));
 # 遍历二叉树(把每个节点按指定顺序打印出来)
 - 三种方法
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-5471f65e070ad800.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 分析
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-8f805ba81ca97bb8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 > 先根序：先根，再左，再右
 
 ```
