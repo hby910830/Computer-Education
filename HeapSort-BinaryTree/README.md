@@ -190,7 +190,40 @@ console.log(array2tree(array));
 # 遍历二叉树(把每个节点按指定顺序打印出来)
 - 三种方法
 > 先根序：先根，再左，再右
->
+
+```
+const node = (value, left, right) => {
+	return {
+		value,
+		left,
+		right
+	}
+}
+
+const binaryTree =
+node('A',
+	node('B', node('D'), undefined),
+	node('C',
+		node('E',undefined, node('G')),
+		node('F', node('H'), node('G'))
+	)
+)
+
+//递归方法
+const travelRootFirstWithRecursive = (bTree, fn) => {
+	if(!bTree) return
+	fn(bTree.value)
+	travelRootFirstWithRecursive(bTree.left, fn)
+	travelRootFirstWithRecursive(bTree.right, fn)
+}
+
+const result = []
+travelRootFirstWithRecursive(binaryTree, value => {
+	result.push(value)
+})
+console.log(result)
+```
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-3e7fd89459b127fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 > 中根序：先左，再根，再右
 >
 > 后根序：先左，再右，再根
