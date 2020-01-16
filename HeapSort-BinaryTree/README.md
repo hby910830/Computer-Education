@@ -225,7 +225,40 @@ console.log(result)
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-3e7fd89459b127fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 > 中根序：先左，再根，再右
->
+
+```
+const node = (value, left, right) => {
+	return {
+		value,
+		left,
+		right
+	}
+}
+
+const binaryTree =
+node('A',
+	node('B', node('D'), undefined),
+	node('C',
+		node('E',undefined, node('G')),
+		node('F', node('H'), node('G'))
+	)
+)
+
+//递归方法
+const travelRootMiddleWithRecursive = (bTree, fn) => {
+	if(!bTree) return
+	travelRootMiddleWithRecursive(bTree.left, fn)
+	fn(bTree.value)
+	travelRootMiddleWithRecursive(bTree.right, fn)
+}
+
+const result = []
+travelRootMiddleWithRecursive(binaryTree, value => {
+	result.push(value)
+})
+console.log(result)
+```
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-6418280d1b58529b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 > 后根序：先左，再右，再根
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-5471f65e070ad800.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
