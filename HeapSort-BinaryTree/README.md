@@ -438,3 +438,10 @@ travelRootFirstWithoutRecursive(binaryTree, value => {
 console.log(result2)
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-f6cd478049467de4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 后根序遍历
+> 可以用两个 stack， 比较复杂
+>
+> 另一种思路是把树进行转换，后根转成中根
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-407d151b6d566873.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
