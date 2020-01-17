@@ -589,3 +589,19 @@ travelRootMiddleCompleteBinTree(completeBinTree, value => {
 console.log(result)
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-a39de2b148ee9fb8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 二叉堆，简称堆 Heap
+``尖的完全二叉树。也有三叉堆以及普通堆，但大部分时候堆就是指二叉堆``
+
+- 二叉堆的定义
+> 一棵完全二叉树
+> 父节点的值 >= 子节点的值，则称为最大二叉堆
+> 
+> 父节点的值 <= 子节点的值，则称为最小二叉堆
+>
+> 注意：并没有要求左右节点的大小顺序
+
+- 举例
+> [35，26，48，10，59，64，17，23，45，31]
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-1fb260e8f97045c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
