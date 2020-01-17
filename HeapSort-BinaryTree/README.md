@@ -512,3 +512,25 @@ console.log(result2)
 >  节点总数为4~7，则 h=3
 >
 >  节点总数为8~15，则 h=4
+
+# 树形结构的存储形式（链式存储和顺序存储）
+链式存储
+- 二叉树如何存储
+> 每个节点保存三个数据：value，left(地址)，right(地址)
+>
+> 如果有需要，可以多保存一个 parent(父节点地址)
+
+- 数如何存储
+> 也许你会想到每个节点保存 value 和 children
+>
+> 但是 children 的长度确定呢？
+>
+> 如果 children 的长度不确定，你就要写额外的代码
+>
+> 比如 node.children = []，这是一个动态数组
+>
+> 当数组的长度不够时，你就要把数组在内存中挪动
+>
+> 更经济的方法是把树转化成二叉树存储
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-cba5be8173d5c36e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
