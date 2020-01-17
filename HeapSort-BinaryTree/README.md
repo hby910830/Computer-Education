@@ -495,3 +495,20 @@ console.log(result2)
 > 完全二叉树是差一点点就满了（满二叉树）
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-420680d070e038bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 完全二叉树的性质
+- 高度
+> 如果完全二叉树的总节点数为 n 
+>
+> 则高度 h=log2(n) + 1 取整
+
+- 举例
+> 节点总数为1，则 h=1
+>
+> 节点总数为2，则 h=2
+>
+> 节点总数为3，则 h=2
+>
+>  节点总数为4~7，则 h=3
+>
+>  节点总数为8~15，则 h=4
