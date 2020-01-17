@@ -470,3 +470,16 @@ console.log(result2)
 > 2^0 + 2^1 + 2^2 + ··· + 2^(h-1) = 2^h - 1
 >
 > 每层都是最多，总节点数就是最多了   
+
+# 满二叉树
+- 如果二叉树
+> 每层都是满的，就叫做满二叉树
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-61fa7180ea2bd4f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 特点
+> 高度为 h=4
+>
+> 每层的节点数分别为1、2、4、8 ······
+>
+> 总节点数为 2^h - 1 = 16 - 1 = 15 
