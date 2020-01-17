@@ -563,3 +563,29 @@ console.log(result2)
 > 若 i 为单数，则 i 为左节点，i + 1 是它的弟弟
 >
 > 若 i 为双数，则 i 为右节点，i - 1 是它的哥哥
+
+# 中根序遍历顺序存储的完全二叉树
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-d34dd33894c3cafd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 代码（综合前面的遍历知识）
+```
+//中根序遍历顺序存储的完全二叉树
+const completeBinTree = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
+
+const travelRootMiddleCompleteBinTree = (tree, fn) => {
+	const t = (tree, i, fn) => {  // i 为子树的根的索引
+		if(tree === undefined || tree[i] === undefined) return
+		t(tree, 2*i + 1, fn)
+		fn(tree[i])
+		t(tree, 2*i + 2, fn)
+	}
+	t(tree, 0, fn)
+}
+
+const result = []
+travelRootMiddleCompleteBinTree(completeBinTree, value => {
+	result.push(value)
+})
+console.log(result)
+```
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-a39de2b148ee9fb8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
