@@ -605,3 +605,17 @@ console.log(result)
 > [35，26，48，10，59，64，17，23，45，31]
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-1fb260e8f97045c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 最大堆的性质
+- 堆序性 heap order
+> 任意节点 >= 它的所有后代，最大值在堆的根上
+
+- 完全树
+> 只有最底层不满，且节点尽可能的往左靠
+
+# 最小堆的性质
+- 堆序性 heap order
+> 任意节点 <= 它的所有后代，最小值在堆的根上
+
+- 完全树
+> 只有最底层不满，且节点尽可能的往左靠
