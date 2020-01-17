@@ -483,3 +483,15 @@ console.log(result2)
 > 每层的节点数分别为1、2、4、8 ······
 >
 > 总节点数为 2^h - 1 = 16 - 1 = 15 
+
+# 完全二叉树（不满）
+- 如果二叉树
+> 只有最后一层不满
+> 
+> 所以节点都尽量往左边靠
+>
+> 那么就是完全二叉树
+>
+> 完全二叉树是差一点点就满了（满二叉树）
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-420680d070e038bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
