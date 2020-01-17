@@ -545,3 +545,6 @@ console.log(result2)
 > completeBinTree = ['A', 'B', 'C', 'D', 'E', 'F, 'G', 'H, 'I', 'J']
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-346f49f9d2552cb9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 普通二叉树这样存很浪费
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-0991fd3e1b2c0522.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
