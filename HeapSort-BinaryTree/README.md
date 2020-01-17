@@ -540,3 +540,8 @@ console.log(result2)
 > fullBinTree = ['A', 'B', 'C', 'D', 'E', 'F, 'G', 'H, 'I', 'J', 'K', 'L', 'M', 'N', 'O']
 
 ![](https://upload-images.jianshu.io/upload_images/1181204-09e61064f0f0e1fd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 完全二叉树可以顺序存储
+> completeBinTree = ['A', 'B', 'C', 'D', 'E', 'F, 'G', 'H, 'I', 'J']
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-346f49f9d2552cb9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
