@@ -445,3 +445,19 @@ console.log(result2)
 > 另一种思路是把树进行转换，后根转成中根
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-407d151b6d566873.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 二叉树的性质
+性质1: 每层节点数
+- 第 i 层（层数从0开始）
+> 二叉树的第 i>=0层最多有 2^i 个节点
+
+- 证明
+> 可以用数学归纳法证明
+>
+> 当 i=0 时，第0层最多有 2^0 = 1 个节点
+>
+> 假设 i=k 时结论成立，2^k 个节点每个节点最多有两个子节点，那么 k + 1 层最多有 2^(k + 1) 个节点，结论也成立
+>
+> 故，结论对 i>=0 成立
+
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-800384ab352bbff7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
