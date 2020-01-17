@@ -548,3 +548,18 @@ console.log(result2)
 
 - 普通二叉树这样存很浪费
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-0991fd3e1b2c0522.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 顺序存储的完全二叉树
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-346f49f9d2552cb9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+- 获取下标为 i 的节点的子节点
+> 子节点为 2i+1 和 2i+2
+
+- 获取下标为 i 的节点的父节点下标
+> 结果为 (i-1)/2 取整(i=0除外)
+
+- 获取下标为 i 的兄弟节点
+> 若 i 为0，则为根，没有兄弟节点
+>
+> 若 i 为单数，则 i 为左节点，i + 1 是它的弟弟
+>
+> 若 i 为双数，则 i 为右节点，i - 1 是它的哥哥
