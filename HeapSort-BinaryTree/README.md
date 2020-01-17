@@ -534,3 +534,9 @@ console.log(result2)
 > 更经济的方法是把树转化成二叉树存储
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-cba5be8173d5c36e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 顺序存储
+- 满二叉树可以顺序存储
+> fullBinTree = ['A', 'B', 'C', 'D', 'E', 'F, 'G', 'H, 'I', 'J', 'K', 'L', 'M', 'N', 'O']
+
+![](https://upload-images.jianshu.io/upload_images/1181204-09e61064f0f0e1fd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
