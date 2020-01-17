@@ -461,3 +461,12 @@ console.log(result2)
 > 故，结论对 i>=0 成立
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-800384ab352bbff7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+性质2: 总节点数
+- 共 h>=1 层
+> 高度为 h 的二叉树至多有 2^h - 1 个节点
+
+- 证明
+> 2^0 + 2^1 + 2^2 + ··· + 2^(h-1) = 2^h - 1
+>
+> 每层都是最多，总节点数就是最多了   
