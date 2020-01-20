@@ -106,3 +106,9 @@ insert(heap, 60)
 console.log(heap) // [64, 60, 48, 45, 59, 35, 17, 23, 10, 26, 31]
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-8bbd9fe0b302a0df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# API - extractMax(heap) 如何弹出堆顶的值
+要保证弹出后，剩下的元素依然组成堆
+
+# 思路 (extractMax)
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-f320211fe57662b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
