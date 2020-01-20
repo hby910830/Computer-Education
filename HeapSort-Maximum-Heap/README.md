@@ -27,3 +27,6 @@
 
 - 完全树
 > 只有最底层不满，且节点尽可能的往左靠
+
+# 堆的 API
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-1e943313b421d06d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
