@@ -42,3 +42,30 @@
 > 注意一个节点有可能需要调整多次（递归）
 >
 > 由于每次调整都是把数字下降，所以叫 siftDown
+
+- 代码
+```
+const array = [35, 26, 48, 10, 59, 64, 17, 23, 45, 31]
+const heapify = array => {
+	for (let i = parseInt((array.length - 1) / 2); i >= 0; i--) {
+		siftDown(array, i, array.length)
+	}
+	return array
+}
+siftDown = (heap, i, length) => {
+	const left = 2 * i + 1, right = 2 * i + 2
+	let greater = left
+	if (greater >= length) {return}
+	if (right < length && heap[right] > heap[greater]) {
+		greater = right
+	}
+	if(heap[greater]>heap[i]){
+		console.log(`换 ${heap[greater]} ${heap[i]}`);
+    [heap[greater],heap[i]] = [heap[i],heap[greater]]
+    siftDown(heap, greater, length)
+}
+}
+heapify(array)
+// [64, 59, 48, 45, 31, 35, 17, 23, 10, 26]
+```
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-995ea972a925750e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
