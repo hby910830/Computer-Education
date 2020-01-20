@@ -69,3 +69,13 @@ heapify(array)
 // [64, 59, 48, 45, 31, 35, 17, 23, 10, 26]
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-995ea972a925750e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 问答
+- 为什么要从后往前
+> 为了从易到难
+
+- 为什么从 59 开始
+>  因为所以叶子节点都可以跳过
+
+- 什么时候递归
+> 调整父子之后，子节点所在的子树要再调整一次
