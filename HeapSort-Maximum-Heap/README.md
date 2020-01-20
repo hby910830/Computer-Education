@@ -79,3 +79,9 @@ heapify(array)
 
 - 什么时候递归
 > 调整父子之后，子节点所在的子树要再调整一次
+
+# API - insert(heap, item) 如何向堆中插入一个值
+要保证插入之后，依然得到一个堆
+
+# 思路 (siftUp)
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-8b78f6d22cfaab49.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
