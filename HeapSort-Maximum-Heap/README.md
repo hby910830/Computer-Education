@@ -30,3 +30,15 @@
 
 # 堆的 API
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-1e943313b421d06d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# API - heapify 如何把完全二叉树变成堆
+完全二叉树可以用数组存储
+
+# 思路 (siftDown)
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-d714583aec53893e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+> 从最后一个节点开始，逐个向前，把每个节点与其后代比较，最大的放在上面
+>
+> 注意一个节点有可能需要调整多次（递归）
+>
+> 由于每次调整都是把数字下降，所以叫 siftDown
