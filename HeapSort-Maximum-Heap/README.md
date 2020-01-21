@@ -145,3 +145,7 @@ console.log(max, heap)
 // 64, [60, 59, 48, 45, 31, 35, 17, 23, 10, 26]
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/1181204-19254495278b9492.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+# 堆排序
+- 思路（结合前面的知识可以很简单的写出堆排序）
+![image.png](https://upload-images.jianshu.io/upload_images/1181204-9da6ab4baf523e9d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
